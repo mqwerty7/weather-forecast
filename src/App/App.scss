@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+html[data-theme='dark'] {
+  --button-background-color: transparent;
+  --button-hover-background-color: #565555;
+  --submit-button-background-color: #424242;
+  --text-color: #ffffff;
+
+  --body-bg-color: #292929;
+  --header-bg-color: #424242;
+  --footer-bg-color: #424242;
+  --sub-nav-border-color: #ffffff;
+  --weater-card-background-color: #424242;
+}
+
+html[data-theme='light'] {
+  --button-text-color: #252525;
+  --button-background-color: transparent;
+  --button-hover-background-color: #61787b;
+  --submit-button-background-color: #81A3A7;
+  --text-color: #252525;
+
+  --body-bg-color: #F1F3F2;
+  --header-bg-color: #81A3A7;
+  --footer-bg-color: #C2D3DA;
+  --sub-nav-border-color: #252525;
+  --weater-card-background-color: #ffffff;
+}
+
+.pageBody {
+  display: flex;
+  flex: 1 0 auto;
+  background-color: var(--body-bg-color);
+  color: var(--text-color);
+}
+
+.pageFooter {
+  flex-shrink: 0;
+  padding: 10px 50px;
+  color: var(--text-color);
+  font-size: 12px;
+  background-color: var(--footer-bg-color);
+  text-align: center;
+}

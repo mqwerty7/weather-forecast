@@ -1,0 +1,27 @@
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.leftSide {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  .name {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+}
+
+.pageHeader {
+  height: 60px;
+  background-color: var(--header-bg-color);
+  color: var(--text-color);
+  flex-shrink: 0;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: var(--weater-card-background-color);
+
+  .mainInfo {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+
+    .temperature {
+      font-size: 75px;
+      font-weight: 400;
+    }
+
+    .time {
+      margin-left: auto;
+      margin-top: 10px;
+      font-size: 17px;
+    }
+  }
+
+  .secondInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .leftSide, .rightSide {
+      width: 350px;
+    }
+
+    .paramWrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      border-bottom: 1px solid  #c2c2c2;
+      margin-bottom: 15px;
+      font-size: 17px;
+    }
+  }
+
+
+}

@@ -1,0 +1,20 @@
+.btn {
+  width: 130px;
+  height: 40px;
+  color: var(--text-color);
+  border-radius: 5px;
+  padding: 10px 25px;
+  margin-right: 10px;
+  font-family: 'Lato', sans-serif;
+  font-size: 17px;
+  background: var(--button-background-color);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: relative;
+  display: inline-block;
+  border: none;
+
+  &:hover {
+    background: var(--button-hover-background-color);
+  }
+}
